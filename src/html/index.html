@@ -1,65 +1,73 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    {{> partials/head title="Landkit"}}
-  </head>
-  <body>
 
-    <!-- MODALS -->
-    {{> partials/modals}}
+<head>
+  {{> partials/head}}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- NAVBAR -->
-    {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
+</head>
 
-    <!-- WELCOME -->
+<body>
+
+  <!-- MODALS -->
+  {{> partials/modals}}
+
+  <!-- NAVBAR -->
+  {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
+
+  <!-- WELCOME -->
+  <section class="bg-image d-flex justify-content-center align-items-center" style="
+      background-image: url('https://i.ibb.co/DMstWjZ/background.png');
+      height: 150vh;
+      background-repeat: no-repeat;
+      background-size: contain !important;
+    ">
+
     <section class="pt-4 pt-md-11">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-md-5 col-lg-6 order-md-2">
+     
+      <!-- <div class="btn-group-vertical popup-btn">
+        <button type="button" class="btn btn-secondary">Button</button>
+        <button type="button" class="btn btn-secondary">Button</button>
+         <button type="button" class="btn btn-secondary">Button</button>
+      </div> -->
+<!-- <div style='float:right; width:-70px;'>
+      <div class="icon-bar">
+        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="google"><i class="fa fa-google"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+      </div> -->
+    <!-- </div> -->
 
-            <!-- Image -->
-            <!-- <img src="assets/img/illustrations/illustration-2.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..." data-aos="fade-up" data-aos-delay="100"> -->
-
-          </div>
-          <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
-
-            <!-- <h1 class="display-3 text-center text-md-start">
-              Welcome to <span class="text-primary">Landkit</span>. <br>
-              Develop anything.
-            </h1> -->
-
-        
-            <!-- <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
-              Build a beautiful, modern website with flexible Bootstrap components built from scratch.
-            </p> -->
-
-          
-            <!-- <div class="text-center text-md-start">
-              <a href="overview.html" class="btn btn-primary shadow lift me-1">
-                View all pages <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
-              </a>
-              <a href="docs/index.html" class="btn btn-primary-soft lift">
-                Documentation
-              </a>
-            </div> -->
-
-
-            <a href="/internet-residencial.html">Internet Residencial</a> <br>
-            <a href="/internet-corporativo.html">Internet Corporativo</a> <br>
-            <a href="/proyectos-electronicos.html">Proyectos Industriales Eléctronicos</a> <br>
-            <a href="/proyectos-telecom.html">Proyectos Industriales Telecomunicaciones</a> <br>
-
-
+      <div class="container" >
+        <div class="row text-right">
+          <div class="col-12 col-md-6 col-lg-8 order-md-2" id="inicio-text">
+            <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8" >
+              <a href="/internet-residencial.html">Internet Residencial</a>
+            </p>
+            <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
+              <a href="/internet-corporativo.html">Internet Corporativo</a>
+            </p>
+            <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
+             <a href="/proyectos-electronicos.html">Proyectos Industriales Eléctronicos</a>
+            </p>
+            <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
+              <a href="/proyectos-telecom.html">Proyectos Industriales Telecomunicaciones</a>
+            </p>
           </div>
         </div> <!-- / .row -->
+        <!-- Dark circle button with ripple effect -->
       </div> <!-- / .container -->
     </section>
 
-    <!-- FOOTER -->
-    {{> partials/footer classList="bg-gray-200"}}
+  </section>
+  <!-- FOOTER -->
+  {{> partials/footer classList="bg-gray-200"}}
 
-    <!-- JAVASCRIPT -->
-    {{> partials/scripts}}
+  <!-- JAVASCRIPT -->
+  {{> partials/scripts}}
 
-  </body>
+</body>
+
 </html>

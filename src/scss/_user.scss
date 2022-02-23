@@ -1,4 +1,97 @@
-// 
-// user.scss
-// Use this to write your custom SCSS
-//
+
+
+
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+
+
+    #inicio-text{
+      
+     }
+     
+     .popup-btn a{
+        top:400px;
+        position:fixed;
+        right:-90px;
+        z-index: 1000;
+        transform: rotate(-90deg);
+        padding:10px 20px 35px;
+        height: 0px;
+        background-color: #26e0ee;
+        color:#fff;
+        }
+        .popup-btn a:hover{
+        text-decoration: none;
+        color:#fff;
+        }
+
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+    #inicio-text{
+        margin-left:20vw;
+        margin-top:-80vw;
+        text-align: right !important;
+     }
+     .popup-btn a{
+        top:400px;
+        position:fixed;
+        right:-90px;
+        z-index: 1000;
+        transform: rotate(-90deg);
+        padding:10px 20px 35px;
+        height: 0px;
+        background-color: #26e0ee;
+        color:#fff;
+        }
+        .popup-btn a:hover{
+        text-decoration: none;
+        color:#fff;
+        }
+
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+    #inicio-text{
+        margin-left:40vw;
+        margin-top:-50vw;
+     }
+     .popup-btn a{
+        top:400px;
+        position:fixed;
+        right:-90px;
+        z-index: 1000;
+        transform: rotate(-90deg);
+        padding:10px 20px 35px;
+        height: 0px;
+        background-color: #26e0ee;
+        color:#fff;
+        }
+        .popup-btn a:hover{
+        text-decoration: none;
+        color:#fff;
+        }
+        .bg-image{
+            background-image: url('https://i.ibb.co/nb7j2W5/res.png');
+            height: 200vh;
+            background-repeat: no-repeat;
+            background-size:contain !important;
+         
+         }
+
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    #inicio-text{
+        margin-left:40vw;
+        margin-top:-25vw;
+     }
+
+     .bg-image{
+        background-image: url('https://i.ibb.co/nb7j2W5/res.png');
+        height: 200vh;
+        background-repeat: no-repeat;
+        background-size:contain !important;
+     
+     }
+
+     
+}
+
