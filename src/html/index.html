@@ -15,53 +15,110 @@
   <!-- NAVBAR -->
   {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
 
-  <!-- WELCOME -->
-  <section class="bg-image d-flex justify-content-center align-items-center" style="
-      background-image: url('https://i.ibb.co/DMstWjZ/background.png');
-      height: 150vh;
-      background-repeat: no-repeat;
-      background-size: contain !important;
-    ">
+ <!-- WELCOME -->
 
-    <section class="pt-4 pt-md-11">
+
+ <section class="pt-4 pt-md-11">
+      <!-- Shape -->
+      <div class="shape shape-fluid-x shape-blur-1 text-gray-200">
+        {{> blurs/blur-2}}
+      </div>
+   
+
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-5 col-lg-5 order-md-2">
+
+        <!-- Image -->
+        <div class="img-skewed img-skewed-end mb-10 mb-md-0">
+        <img src="https://i.ibb.co/3p0t6h6/hand.png" class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0 mx-10" alt="..." data-aos="fade-up" data-aos-delay="100" style="width: 100%;">
+</div>
+      </div>
+      <div class="col-12 col-md-7 col-lg-7 order-md-1 ml-5" data-aos="fade-up">
+       
+
+        <!-- Heading -->
+        <h1 class="display-3 text-center text-md-start">
+          Bienvenidos á  <span class="text-primary">Antel</span>. 
+        </h1>
+
+        <!-- Text -->
+        <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
+          Elija el servicio adecuado para usted.
+          </p>
+
+        <!-- Buttons -->
+        <div class="text-center text-md-start">
+          <a href="/internet-residencial.html" class="btn btn-primary-soft shadow lift me-1 mb-5">
+            Internet Residencial <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
+          </a>
+          <a href="/internet-corporativo.html" class="btn btn-primary-soft shadow lift me-1 mb-5">
+            Internet Corporativo <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
+          </a>
+          <a href="/proyectos-electronicos.html" class="btn btn-primary-soft shadow lift me-1">
+            Proyectos Eléctronicos <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
+          </a>
+          <a href="/proyectos-telecom.html" class="btn btn-primary-soft shadow lift me-1">
+            Proyectos Telecomunicaciones <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
+          </a>
+  
+          <!-- <a href="docs/index.html" class="btn btn-primary-soft lift">
+            Documentation
+          </a> -->
+        </div>
+
+      </div>
      
-      <!-- <div class="btn-group-vertical popup-btn">
-        <button type="button" class="btn btn-secondary">Button</button>
-        <button type="button" class="btn btn-secondary">Button</button>
-         <button type="button" class="btn btn-secondary">Button</button>
-      </div> -->
-<!-- <div style='float:right; width:-70px;'>
-      <div class="icon-bar">
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="google"><i class="fa fa-google"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
-      </div> -->
-    <!-- </div> -->
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
+<!-- <section class="pt-8 pt-md-12 pb-10 pb-md-14 pb-lg-15">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      <div class="col-12 col-md-6">
 
-      <div class="container" >
-        <div class="row text-right">
-          <div class="col-12 col-md-6 col-lg-8 order-md-2" id="inicio-text">
-            <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8" >
-              <a href="/internet-residencial.html">Internet Residencial</a>
-            </p>
-            <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
-              <a href="/internet-corporativo.html">Internet Corporativo</a>
-            </p>
-            <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
-             <a href="/proyectos-electronicos.html">Proyectos Industriales Eléctronicos</a>
-            </p>
-            <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
-              <a href="/proyectos-telecom.html">Proyectos Industriales Telecomunicaciones</a>
-            </p>
-          </div>
-        </div> <!-- / .row -->
-        <!-- Dark circle button with ripple effect -->
-      </div> <!-- / .container -->
-    </section>
 
-  </section>
+        <div class="img-skewed img-skewed-end mb-10 mb-md-0">
+          <img src="https://i.ibb.co/pLDVNns/Alarmas-de-Seguirdad.png" alt="..." class="img-fluid" data-aos="img-skewed-item-end">
+        </div>
+
+      </div>
+      <div class="col-12 col-md-7 col-lg-6 order-md-1" data-aos="fade-up">
+       
+
+
+        <h1 class="display-3 text-center text-md-start">
+          Welcome to <span class="text-primary">Landkit</span>. <br>
+          Develop anything.
+        </h1>
+
+
+        <p class="lead text-center text-md-start text-muted mb-6 mb-lg-8">
+          Build a beautiful, modern website with flexible Bootstrap components built from scratch.
+        </p>
+
+    
+        <div class="text-center text-md-start">
+          <a href="overview.html" class="btn btn-primary shadow lift me-1">
+            View all pages <i class="fe fe-arrow-right d-none d-md-inline ms-3"></i>
+          </a>
+          <a href="docs/index.html" class="btn btn-primary-soft lift">
+            Documentation
+          </a>
+        </div>
+
+      </div>
+     
+      </div>
+    </div> 
+  </div> 
+</section> -->
+
+
+
+
+  
+   
   <!-- FOOTER -->
   {{> partials/footer classList="bg-gray-200"}}
 
