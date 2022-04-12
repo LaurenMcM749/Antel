@@ -1,36 +1,227 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    {{> partials/head title="Landkit"}}
+  </head>
+  <body>
 
-<head>
-  {{> partials/head}}
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- MODALS -->
+    {{> partials/modals}}
 
-</head>
+    <!-- NAVBAR -->
+    {{> partials/navbar classList="navbar-light" container="container" button="primary"}}
 
-<body>
+    <!-- WELCOME -->
+    <section class="position-relative pt-12 pt-md-14 mt-n11">
+    
 
-  <!-- MODALS -->
-  {{> partials/modals}}
+      <!-- Content -->
+      <div class="container">
+       
+         <!-- Shape -->
 
-  <!-- NAVBAR -->
-  {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
+    
 
-  <!-- WELCOME -->
+        <div class="row align-items-center text-center text-md-start">
+       
+          <div class="col-12 col-md-6">
+           
+
+            <!-- Image -->
+            <img src="https://i.ibb.co/ynznKD9/carro-2.png" alt="..." class="img-fluid mw-130 float-end mb-6 mb-md-0" data-aos="fade-right">
+            <div class="shape shape-fluid-x shape-blur-2 text-light" style="z-index: -1;">
+              {{> blurs/blur-4}}
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+
+            <!-- Heading -->
+            <h1 class="display-1 fw-bold text-uppercase">
+              <div data-aos="fade-left">Dile <span class="text-primary">Adiós</span> </div>
+              <div data-aos="fade-left" data-aos-delay="100">Al Internet Lento</div>
+            </h1>
+
+            <!-- Text -->
+            <h2 class=" mb-0 text-uppercase text-primary" data-aos="fade-left" data-aos-delay="200">
+              Cambiate ya! A Antel.
+            </h2>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+    <!-- HUB -->
+    <section class="pt-8 pt-md-12 pb-10 pb-md-14 pb-lg-15" style="margin-bottom: -15vw;">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-5">
+            <!-- Image -->
+            <div class="img-skewed img-skewed-end mb-10 mb-md-0">
+              <img src="https://i.ibb.co/M5d7dRj/Asset-6.png" alt="..." class="img-fluid" data-aos="img-skewed-item-end">
+              <div class="shape shape-fluid-x shape-blur-2 text-light" style="z-index: -1;">
+                {{> blurs/blur-3}}
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 col-lg-3 text-center"  data-aos="fade-up" data-aos-delay="50">
+
+
+              <!-- Icon -->
+              <div class="col-12 mb-5">
+                <a href="#"><img src="https://i.ibb.co/z2YLxtS/30.png"></a>
+              </div>
+              <div class="col-12 mb-5">
+                <a href="#"><img src="https://i.ibb.co/z5mCQ8j/60.png"></a>
+              </div>
+              <div class="col-12 mb-5">
+                <a href="#"><img src="https://i.ibb.co/BV2hQPD/100.png"></a>
+              </div>
+              <div class="col-12 mb-5">
+                <a href="#"><img src="https://i.ibb.co/0c5sMjr/120.png"></a>
+              </div>
+              <div class="col-12 mb-5">
+                <a href="#"><img src="https://i.ibb.co/V3qzmGk/140.png"></a>
+              </div>
+              <div class="col-12 mb-5">
+                <a href="#"><img src="https://i.ibb.co/FB4MH5d/160.png"></a>
+              </div>
+              <div class="col-12 mb-5">
+                <a href="#"><img src="https://i.ibb.co/pK4YCF6/250-1.png"></a>
+              </div>
+              
+            </div>
+            
+            <div class="col-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="50">
+              <img src="https://i.ibb.co/hyJ3LBn/Asset-4.png"  alt="..." class="img-fluid" data-aos="img-skewed-item-end">
+            </div>
+          
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+    <section class="py-8 py-md-11 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-2" data-aos="fade-up">
+  
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M7 3h10a4 4 0 110 8H7a4 4 0 110-8zm0 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA"/><path d="M7 13h10a4 4 0 110 8H7a4 4 0 110-8zm10 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA" opacity=".3"/></g></svg>            </div>
+  
+            <!-- Heading -->
+            <h3>
+              Contrata desde la comodidad de tu domicilio
+            </h3>
+  
+            <!-- Text -->
+          
+          </div>
+          <div class="col-12 col-md-2" data-aos="fade-up" data-aos-delay="50">
+  
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M5.5 4h4A1.5 1.5 0 0111 5.5v1A1.5 1.5 0 019.5 8h-4A1.5 1.5 0 014 6.5v-1A1.5 1.5 0 015.5 4zm9 12h4a1.5 1.5 0 011.5 1.5v1a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-1a1.5 1.5 0 011.5-1.5z" fill="#335EEA"/><path d="M5.5 10h4a1.5 1.5 0 011.5 1.5v7A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-7A1.5 1.5 0 015.5 10zm9-6h4A1.5 1.5 0 0120 5.5v7a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-7A1.5 1.5 0 0114.5 4z" fill="#335EEA" opacity=".3"/></g></svg>            </div>
+  
+            <!-- Heading -->
+            <h3>
+              Planes simétricos
+            </h3>
+  
+            <!-- Text -->
+     
+            
+  
+          </div>
+          <div class="col-12 col-md-2" data-aos="fade-up" data-aos-delay="100">
+  
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M17.272 8.685a1 1 0 111.456-1.37l4 4.25a1 1 0 010 1.37l-4 4.25a1 1 0 01-1.456-1.37l3.355-3.565-3.355-3.565zm-10.544 0L3.373 12.25l3.355 3.565a1 1 0 01-1.456 1.37l-4-4.25a1 1 0 010-1.37l4-4.25a1 1 0 011.456 1.37z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" transform="rotate(15 12 12)" x="11" y="4" width="2" height="16" rx="1"/></g></svg>            </div>
+  
+            <!-- Heading -->
+            <h3>
+              Extrema velocidad
+                        </h3>
+  
+            <!-- Text -->
+          
+  
+          </div>
+          <div class="col-12 col-md-2" data-aos="fade-up" data-aos-delay="100">
+  
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M17.272 8.685a1 1 0 111.456-1.37l4 4.25a1 1 0 010 1.37l-4 4.25a1 1 0 01-1.456-1.37l3.355-3.565-3.355-3.565zm-10.544 0L3.373 12.25l3.355 3.565a1 1 0 01-1.456 1.37l-4-4.25a1 1 0 010-1.37l4-4.25a1 1 0 011.456 1.37z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" transform="rotate(15 12 12)" x="11" y="4" width="2" height="16" rx="1"/></g></svg>            </div>
+  
+            <!-- Heading -->
+            <h3>
+              Compartición 2:1
+                        </h3>
+  
+            <!-- Text -->
+          
+  
+          </div>
+          <div class="col-12 col-md-2" data-aos="fade-up" data-aos-delay="100">
+  
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M17.272 8.685a1 1 0 111.456-1.37l4 4.25a1 1 0 010 1.37l-4 4.25a1 1 0 01-1.456-1.37l3.355-3.565-3.355-3.565zm-10.544 0L3.373 12.25l3.355 3.565a1 1 0 01-1.456 1.37l-4-4.25a1 1 0 010-1.37l4-4.25a1 1 0 011.456 1.37z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" transform="rotate(15 12 12)" x="11" y="4" width="2" height="16" rx="1"/></g></svg>            </div>
+  
+            <!-- Heading -->
+            <h3>
+              Asistencia técnica en 24 horas.
+                        </h3>
+  
+            <!-- Text -->
+          
+  
+          </div>
+          <div class="col-12 col-md-2" data-aos="fade-up" data-aos-delay="100">
+  
+            <!-- Icon -->
+            <div class="icon text-primary mb-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M17.272 8.685a1 1 0 111.456-1.37l4 4.25a1 1 0 010 1.37l-4 4.25a1 1 0 01-1.456-1.37l3.355-3.565-3.355-3.565zm-10.544 0L3.373 12.25l3.355 3.565a1 1 0 01-1.456 1.37l-4-4.25a1 1 0 010-1.37l4-4.25a1 1 0 011.456 1.37z" fill="#335EEA"/><rect fill="#335EEA" opacity=".3" transform="rotate(15 12 12)" x="11" y="4" width="2" height="16" rx="1"/></g></svg>            </div>
+  
+            <!-- Heading -->
+            <h3>
+              Atención al cliente 
+              inmediata y personalizada.            </h3>
+  
+            <!-- Text -->
+          
+  
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+  
+     <!-- Banner -->
   <section class="bg-image d-flex justify-content-center align-items-center" id="res" style=" 
-  background-image: url('https://i.ibb.co/CsSHbqM/fullres.png');
-  height: 400vh;  
-  background-repeat: no-repeat;
-  background-size:contain !important;">
-
- 
-
+          background-image: url('https://i.ibb.co/hMN9wH9/layer-ejemplo.jpg');
+          height: 80vh;  
+          background-repeat: no-repeat;
+          background-size: contain !important;
+          width: 75%;
+          margin: auto;
+          border-radius: 15px;
+          ">
   </section>
-  <!-- FOOTER -->
-  {{> partials/footer classList="bg-gray-200"}}
+   <!-- FEATURES -->
+  
 
-  <!-- JAVASCRIPT -->
-  {{> partials/scripts}}
 
-</body>
 
+
+   
+   
+
+    <!-- FOOTER -->
+    {{> partials/footer classList="bg-dark"}}
+
+    <!-- JAVASCRIPT -->
+    {{> partials/scripts}}
+
+  </body>
 </html>
