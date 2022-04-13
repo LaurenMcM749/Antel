@@ -15,8 +15,6 @@ const paths = {
     js: "./src/js",
     scss: "./src/scss",
     video: "./src/video",
-    sitemap: "./src/sitemap.xml",
-    robots: "./src/robots.txt",
   },
   dist: {
     css: "./assets/css",
@@ -25,8 +23,6 @@ const paths = {
     img: "./assets/img",
     js: "./assets/js",
     video: "./assets/video",
-    sitemap: "./sitemap.xml",
-    robots: "./robots.txt"
   },
 };
 
@@ -110,14 +106,6 @@ module.exports = {
         {
           from: paths.src.video,
           to: paths.dist.video,
-        },
-        {
-          from: paths.src.sitemap,
-          to: paths.dist.sitemap,
-        },
-        {
-          from: paths.src.robots,
-          to: paths.dist.robots,
         },
       ],
     }),
